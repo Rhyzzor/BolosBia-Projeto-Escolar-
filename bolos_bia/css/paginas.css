@@ -1,0 +1,32 @@
+.form-group{
+  width: 90%;
+  margin-left: 10px;
+}
+
+.btn{
+  background-color: pink;
+}
+.btn:hover{
+  background-color: pink;
+}
+
+button{
+  margin-left: 250px;
+}
+.botaoCancel{
+  background-color: rgb(152, 76, 83);
+}
+.botaoCancel:hover{
+  background-color: rgb(175, 66, 75);
+}
+.botoes{
+  margin-left: 10px;
+  float: right;
+}
+
+.alterarBotao{
+  margin-right: 10px;
+}
+.avisoBotao{
+  margin-left: 500px;
+}

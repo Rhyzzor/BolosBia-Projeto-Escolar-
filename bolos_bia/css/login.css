@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(201, 203, 202);
+}
+.linhaLogin{
+  width: 300px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+input{
+  border-radius: 4px;
+}
+.visualLogin{
+  padding-top: 10px;
+  width: 450px ;
+  height: auto ;
+  margin: 100px auto;
+  background-color: white;
+  box-shadow: 0px 4px rgb(244, 164, 178), 0px 10px 15px rgba(0, 0, 0, 0.48)
+}
+img{
+  width: 10%;
+  margin: 100px auto;
+}
+
+.topoModal{
+  background-color: rgb(255,192,203);
+}
+.rodapeModal{
+  background-color: #000;
+}
+#escritaModal{
+  font-weight: bold;
+}
+.botaoLogin{
+    background-color: rgb(255,192,203);
+}

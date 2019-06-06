@@ -1,0 +1,41 @@
+.phpmy{
+  width: 150px;
+  opacity: 1.00;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.html{
+  width: 150px;
+  opacity: 1.00;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
+.php{
+  width: 150px;
+  opacity: 1.00;
+  margin-left: 5px;
+  margin: 0 auto;
+
+}
+
+.css{
+  width: 150px;
+  opacity: 1.00;
+  margin: 0 auto;
+
+}
+
+.js{
+  width: 150px;
+  opacity: 1.00;
+  margin: 0 auto;
+}
+
+.boot{
+  width: 150px;
+  opacity: 1.00;
+  margin: 0 auto;
+  padding-bottom:  -10px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Projeto - Bolos da Bia</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body>
+    <div class="container">
+      <img src="imagens/bolo.png" class="img-responsive" alt="">
+      <div class="visualLogin">
+        <head>
+
+        </head>
+
+        <main>
+          <div class="corpoLogin">
+
+            <div class="row">
+              <div class="col-md-12">
+                  <div class="form-group linhaLogin">
+                    <label for="">Usuário:</label>
+                    <div class="input-group">
+                      <span class="input-group-addon  glyphicon glyphicon-user"></span>
+                      <input type="text" class="form-control"  id="loginUsuario" aria-describedby="sizing-addon1">
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                  <div class="form-group linhaLogin">
+                    <label for="">Senha:</label>
+                    <div class="input-group">
+                      <span class="input-group-addon  glyphicon glyphicon-asterisk"></span>
+                      <input type="password" class="form-control"  id="loginSenha" >
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <button type="button" class="btn  btn-block botaoLogin" id="entrarLogin">Acessar</button>
+          </div>
+        </main>
+     </div>
+   </div>
+
+
+    <!-- Inicio Modal !-->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Topo Modal !-->
+          <div class="modal-header topoModal">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="">Aviso</h4>
+          </div>
+          <!-- Corpo Modal !-->
+          <div class="modal-body">
+            <p id="escritaModal"></p>
+          </div>
+          <!-- Rodape Modal !-->
+          <div class="modal-footer rodapeModal">
+            <button type="button" class="btn btn-default outraPagina"  data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/login.js"></script>
+  </body>
+</html>
